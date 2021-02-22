@@ -3,7 +3,7 @@ import React from "react";
 const Home = props => (
   <aside className="Home">
     <h1>Home</h1>
-    <p>Welcome</p>
+    <h2>Welcome</h2>
   </aside>
 )
 
