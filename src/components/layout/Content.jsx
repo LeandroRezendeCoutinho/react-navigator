@@ -8,14 +8,14 @@ import Param from "../../views/examples/Param";
 const Content = props => (
   <main className="Content">
     <Switch>
+      <Route exact path="/">
+        <Home></Home>
+      </Route>
       <Route path="/about">
         <About></About>
       </Route>
       <Route path="/Param/:id">
         <Param></Param>
-      </Route>
-      <Route path="/">
-        <Home></Home>
       </Route>
     </Switch>
   </main>
